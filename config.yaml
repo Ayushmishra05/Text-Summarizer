@@ -1,0 +1,7 @@
+root_artifacts : artifacts/
+
+data_ingestion:
+  ingestion_root : artifacts/data_ingestion/
+  data_path : https://github.com/krishnaik06/datasets/raw/refs/heads/main/summarizer-data.zip
+  zip_dir: artifacts/data_ingestion/zipped_dir/data.zip
+  unzip_local_dir : artifacts/data_ingestion/unzipped_dir/
